@@ -1,0 +1,33 @@
+{
+  "name": "bus-ticket-booking-app",
+  "version": "1.0.0",
+  "description": "An application to book tickets on a bus.",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mar-fin/Bus-Ticket-Booking-App.git"
+  },
+  "author": "Marvin Finney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mar-fin/Bus-Ticket-Booking-App/issues"
+  },
+  "homepage": "https://github.com/Mar-fin/Bus-Ticket-Booking-App#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
