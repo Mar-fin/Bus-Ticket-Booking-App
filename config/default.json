@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://Marfin:MongoDB-01@busticketcluster.ttw1t.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
+}
